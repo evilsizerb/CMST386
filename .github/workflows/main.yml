@@ -11,6 +11,6 @@ jobs:
     - name: Deploy to Azure Web App
       uses: azure/webapps-deploy@v1
       with:
-        app-name: 'cmst386-bevilsizer@student.umgc.edu'
+        app-name: 'cmst386-bevilsizer - FTP'
         slot-name: 'production'
         publish-profile: ${{ secrets.AppServiceCMST386 }}
