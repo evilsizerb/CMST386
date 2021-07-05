@@ -1,4 +1,3 @@
-name: Deploy HTML Files to AppService - CMST386
 on:
   push:
     branches:
@@ -13,4 +12,4 @@ jobs:
       with:
         app-name: 'CMST386-bevilsizer'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AppServiceCMST386 }}
+        publish-profile: ${{secrets.AppServiceCMST386}}
